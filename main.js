@@ -18,9 +18,9 @@ function randomBg() {
         char3+=Math.floor(Math.random()*256);
            
 
-        if(char1!==char2&&char1!==char3&&char2!==char3){
+       
         document.getElementById(`items${n}`).style=(`background-color:rgb(${char1},${char2},${char3});`);
-        }   
+          
 
     }
     return document;
